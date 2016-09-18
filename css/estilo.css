@@ -1,0 +1,38 @@
+/****
+Azul = #006680;
+Naranja = #FF5900;
+Amarillo = #F2B80D;
+Gris Oscuro #333333;
+Gris Medio #B3B3B3;
+Gris Claro #808080
+****/
+
+header {
+  background-color: #006680;
+  min-height: 100px;
+}
+
+header .navbar img{
+  height: 70px;
+}
+.navbar{
+  margin-bottom: 0;
+}
+#bs-example-navbar-collapse-1 a {
+  color: #ffffff;
+  line-height: 75px;
+  font-size: 1.3em;
+}
+#bs-example-navbar-collapse-1 a:hover{
+  background-color: #F2B80D;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+#intro {
+    background-image: url('../imagenes/fondo1.jpg');
+    background-size: cover;
+    min-height: 700px;
+}

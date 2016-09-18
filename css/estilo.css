@@ -38,6 +38,7 @@ body {
 #intro {
     background-image: url('../imagenes/fondo1.jpg');
     background-size: cover;
+    background-attachment: fixed;
     padding: 100px 0;
 }
 
@@ -51,26 +52,46 @@ body {
     border-radius: 50px;
     padding: 1.2em;
 }
+
 #iconos {
-  padding: 100px 0;
-}
-#iconos > div{
-  padding-bottom: 50px;
-}
-#iconos h2 {
-  font-size: 50px;
-}
-#iconos h3 {
-  font-size: 30px;
-}
-#iconos h4 {
-  font-size: 25px;
-}
-i.icon-sign-blank.icon-stack-base{
-  color: #006680;
+    padding: 100px 0;
 }
 
-.icon-light:hover{
-  color: #F2B80D;
-  font-size: 1.5em;
+#iconos>div {
+    padding-bottom: 50px;
+}
+
+#iconos h2 {
+    font-size: 50px;
+}
+
+#iconos h3 {
+    font-size: 30px;
+}
+
+#iconos h4 {
+    font-size: 25px;
+}
+
+i.icon-sign-blank.icon-stack-base {
+    color: #006680;
+}
+
+.icon-light:hover {
+    color: #F2B80D;
+    font-size: 1.5em;
+}
+
+#imagenfinal {
+    background-image: url('../imagenes/estilografica1.jpg');
+    background-size: cover;
+    padding: 200px 0;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    color: white;
+}
+
+#imagenfinal p {
+    font-size: 40px;
 }
